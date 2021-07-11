@@ -1,0 +1,33 @@
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+ }
+ main{
+     display: flex;
+     justify-content: center;
+ }
+ .containar{
+     background-color: #FFFFFF;
+     width: 870px;
+     padding: 30px;
+ }
+ /* top plear style */
+ .section-title{
+     color: #562EFF;
+ }
+ .plears{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+ .plear{
+     display: flex;
+     align-items: center;
+ }
+ .plear img{
+    width: 56px;
+    height: 56px;
+ }
+ .pleayer-name{
+     margin-left: 16px;
+ }
+ 
